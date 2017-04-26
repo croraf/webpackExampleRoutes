@@ -21,6 +21,7 @@ const SuperApp = () => {
                     <Route 
                         path="/marko/:id"
                         getComponent={(nextState, cb) => {
+                            
                             cb(null, dispatchAndReturnComponent );
                         }}
                     />
